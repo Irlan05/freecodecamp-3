@@ -31,13 +31,13 @@ h1{
     height: 100vh;
     display: block;
     position: fixed;
-    width: 250px;
+    width: 25%;
     overflow-y: auto;
 }
 
 .main-section{
     border-left: 3px solid #dfdfe2 ;
-    margin-left: 243px;
+    margin-left: 240px;
     flex: 1;
     padding: 0.1rem 2rem;
     font-size: 1rem;
