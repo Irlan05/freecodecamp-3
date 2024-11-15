@@ -1,7 +1,6 @@
-@media(min-width:600px) and (max-width:1200px){
+@media(max-width:600px){
     body{
         width: 100%;
-        overflow-x:hidden ;
     }
     nav{
         width: 25%;
@@ -27,9 +26,6 @@ h1{
     padding: 0.3rem ;
 }
 
-.main-doc{
-    display: block;
-}
 
 #navbar{
     top: 0;
@@ -98,3 +94,6 @@ code{
     color: inherit;
 }
 
+p, h1{
+    text-align:left;
+    display:block !important;
