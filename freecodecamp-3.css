@@ -13,7 +13,6 @@
     }
 }
 
-
 *{
     box-sizing: border-box;
 }
@@ -30,7 +29,7 @@ h1{
 
 .main-doc{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #navbar{
@@ -56,7 +55,7 @@ h1{
     display: block;
     border-bottom: 1px solid black;
     margin-left:-53px;
-    text-align:justify;
+    text-align:left;
 }
 
 .nav-header > ul > li:last-of-type{
