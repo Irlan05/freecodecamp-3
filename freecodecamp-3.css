@@ -28,8 +28,7 @@ h1{
 }
 
 .main-doc{
-    display: flex;
-    align-items: flex-start;
+    display: block;
 }
 
 #navbar{
