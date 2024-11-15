@@ -1,24 +1,21 @@
-@media(max-width:600px){
-    body{
-        width: 100%;
-        overflow:hidden;
+@media(max-width:768px){
+    #navbar{
+        flex: 1 1 25%;
     }
-    nav{
-        width: 25%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
+    .main-section{
+        flex: 1 1 75%;
     }
 }
+
 
 *{
     box-sizing: border-box;
 }
 
 body{
-    width:100%;
+    width: 100%;
     font-family: helvetica;
+    overflow-x:hidden;
 }
 
 h1{
@@ -35,6 +32,7 @@ h1{
     display: block;
     position: fixed;
     width: 250px;
+    overflow-y: auto;
 }
 
 .main-section{
@@ -43,6 +41,17 @@ h1{
     flex: 1;
     padding: 0.1rem 2rem;
     font-size: 1rem;
+}
+
+.main-doc{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#navbar, .main-doc{
+    flex: 1 1 100%;
 }
 
 .nav-header > ul > li{
@@ -80,6 +89,7 @@ pre{
     max-width:100%;
     white-space: pre-wrap;
     box-sizing: border-box;
+    overflow-x: auto;
 }
 
 code{
@@ -96,5 +106,6 @@ code{
 }
 
 p, h1{
-    text-align:left;
-    display:block !important;
+    text-align: left;
+    display: block !important;
+}
