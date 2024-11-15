@@ -9,7 +9,6 @@
         top: 0;
         left: 0;
         height: 100vh;
-        overflow-y: auto;
     }
 }
 
@@ -18,6 +17,7 @@
 }
 
 body{
+    width:100%;
     font-family: helvetica;
 }
 
@@ -37,7 +37,6 @@ h1{
     height: 100vh;
     display: block;
     position: fixed;
-    overflow-y: auto;
     width: 250px;
 }
 
@@ -54,7 +53,6 @@ h1{
     display: block;
     border-bottom: 1px solid black;
     margin-left:-53px;
-    text-align:left;
 }
 
 .nav-header > ul > li:last-of-type{
@@ -79,7 +77,6 @@ pre{
     color: #333;
     border-radius: 5px;
     padding:10px;
-    overflow-x: 0;
     font-family: "courier new", monospace;
     font-size: 14px;
     background-color: #f4f4f4;
