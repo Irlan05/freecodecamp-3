@@ -37,10 +37,12 @@ h1{
 
 .main-section{
     border-left: 3px solid #dfdfe2 ;
-    margin-left: 240px;
+    margin-left: 25%;
     flex: 1;
     padding: 0.1rem 2rem;
     font-size: 1rem;
+    position:relative;
+    width:75%;
 }
 
 .main-doc{
